@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022", "dom"],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "outDir": "./dist",
+    "strict": true,
+    "target": "ES2015"
+  },
+  "include": ["runtime/**/*.ts"],
+  "exclude": ["node_modules"]
+}

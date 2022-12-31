@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "runtime": "vite runtime",
+    "rollup": "rollup -c rollup/rollup.config.js"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "^0.2.0-beta.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@stylexjs/dev-runtime": "^0.2.0-beta.8",
+    "@stylexjs/eslint-plugin": "^0.2.0-beta.8",
+    "@stylexjs/nextjs-plugin": "^0.2.0-beta.8",
+    "@stylexjs/rollup-plugin": "^0.2.0-beta.8",
+    "@stylexjs/webpack-plugin": "^0.2.0-beta.8",
+    "preact": "^10.11.3",
+    "rollup": "^3.7.3",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
